@@ -74,7 +74,45 @@ Inside the "write-access" folder, attempt to create a new file or folder inside 
 <img width="859" height="741" alt="image" src="https://github.com/user-attachments/assets/d80eb17e-0497-446e-a031-20ae3e4c2f7b" />
 
 
+### Accounting Access
 
+
+Go back to DC-1, in Active Directory, create a new Organizational Unit called "_GROUPS" and click okay
+
+<img width="950" height="674" alt="image" src="https://github.com/user-attachments/assets/e6697590-60da-43e7-85ca-f9543dcaf465" />
+
+<img width="538" height="463" alt="image" src="https://github.com/user-attachments/assets/1c666bf3-b05f-43fd-beae-59dafe907a03" />
+
+Inside of the newly created "_GROUPS" folder, right click new and then click on Group.
+
+<img width="879" height="354" alt="image" src="https://github.com/user-attachments/assets/c253c45e-0971-4467-a3a6-4970082743b8" />
+
+Inside the Group window we'll create a new security group called “ACCOUNTANTS” and then click okay
+
+<img width="539" height="507" alt="image" src="https://github.com/user-attachments/assets/0ba06f43-b888-452e-a37c-d93c840da979" />
+
+
+On the “accounting” folder you created earlier, set the following permissions:
+
+Folder: “accounting”, Group: “ACCOUNTANTS”, Permissions: “Read/Write” as shown below.
+
+<img width="904" height="857" alt="image" src="https://github.com/user-attachments/assets/4ba0c837-cc9b-45a3-a1b7-ae1d7a90dcb9" />
+
+
+Log back on to the client vm and try to access the accountants folder, you may have to refresh the window using the F5 key. Accessing the accountants folder should fail. 
+
+<img width="647" height="242" alt="image" src="https://github.com/user-attachments/assets/a288feae-4c67-4d6d-881f-0edbb2ff7a6f" />
+
+Log out of the client vm as the created user that we been using.
+
+Back on the domain controller vm, make the created user a member of the “ACCOUNTANTS”  Security Group
+
+Double click "ACCOUNTANTS" -> Members Tab -> Add -> name of user in the big white box area -> Check Names -> Ok -> Apply -> Ok
+
+<img width="956" height="739" alt="image" src="https://github.com/user-attachments/assets/3457ae49-3e31-49fd-8a86-771461c03116" />
+
+
+Sign back into the client vm like before and try to access the “accounting” share in \\DC-1\ - Does it work now?
 
 
 
