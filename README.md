@@ -6,4 +6,4 @@ Let's start by logging back in with our two virtual machines. For the domain con
 
 Inside the domain controller vm, go to This PC, then double click Windows (C:), and from there, create 4 folders within the C:\ drive: “read-access”, “write-access”, “no-access”, “accounting” without the quotations.
 
-![Uploading image.png…]()
+<img width="961" height="594" alt="image" src="https://github.com/user-attachments/assets/210ecb6f-d61f-4ad9-9bc4-e40bdc46433b" />
