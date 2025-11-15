@@ -29,7 +29,7 @@ To do this, right click on one of the folders and then click properties. Then we
 <img width="476" height="592" alt="image" src="https://github.com/user-attachments/assets/590d7284-ea5e-43eb-87c6-c6664892280c" />
 
 
-Afterwards, go inside the white text area we are going to type "domain users" exactly like that with no extra spaces after, and then click "Add" and then click "Share." Then click done.
+Afterwards, go inside the white text area we are going to type "domain users" exactly like that with no extra spaces after, and then click "Add" and then click "Share." Then click done, then close.
 
 
 <img width="659" height="564" alt="image" src="https://github.com/user-attachments/assets/6f65114b-25a1-4bdd-a609-cf28800f19df" />
@@ -37,6 +37,11 @@ Afterwards, go inside the white text area we are going to type "domain users" ex
 
 <img width="658" height="554" alt="image" src="https://github.com/user-attachments/assets/87057bda-9548-45f9-b021-56a40e63683a" />
 
+
+Repeat the next steps for the write-access and no-access folders, except once inside the Network access window, click on the down arrow under the "Permission Level" and change it from Read to Read/Write.
+
+
+<img width="659" height="554" alt="image" src="https://github.com/user-attachments/assets/7514685c-9214-4432-bba1-11735e288d85" />
 
 
 
