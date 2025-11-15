@@ -38,10 +38,35 @@ Afterwards, go inside the white text area we are going to type "domain users" ex
 <img width="658" height="554" alt="image" src="https://github.com/user-attachments/assets/87057bda-9548-45f9-b021-56a40e63683a" />
 
 
-Repeat the next steps for the write-access and no-access folders, except once inside the Network access window, click on the down arrow under the "Permission Level" and change it from Read to Read/Write.
+Repeat the next steps for the write-access folder, except once inside the Network access window, click on the down arrow under the "Permission Level" and change it from Read to Read/Write.
 
 
 <img width="659" height="554" alt="image" src="https://github.com/user-attachments/assets/7514685c-9214-4432-bba1-11735e288d85" />
+
+For the "no-access" folder, we are going to type "domain admins" and the Permission Level will be changed from Read to Read/Write.
+
+<img width="638" height="550" alt="image" src="https://github.com/user-attachments/assets/adf2cbff-5efa-4ae4-9ef8-d9f293478d67" />
+
+
+# Access Attempts
+
+Inside of the client vm, run the "\\dc-1" command and then press enter
+
+<img width="970" height="837" alt="image" src="https://github.com/user-attachments/assets/3f43f51b-124e-410d-8d65-c1788007d1c7" />
+
+You should see the folders that we created.
+
+<img width="850" height="582" alt="image" src="https://github.com/user-attachments/assets/1c34d45f-19d0-44d7-805f-934e83e696ed" />
+
+
+Double click the "read-access" folder, and attempt to create a new folder inside by right clicking -> New -> Folder and observe what happens.
+
+<img width="848" height="738" alt="image" src="https://github.com/user-attachments/assets/d83541a0-0c07-4b98-9d0f-d44ab4b8e605" />
+
+Notice that you cannot create a folder because this particular folder only has read permissions for users.
+
+
+
 
 
 
