@@ -112,7 +112,20 @@ Double click "ACCOUNTANTS" -> Members Tab -> Add -> name of user in the big whit
 <img width="956" height="739" alt="image" src="https://github.com/user-attachments/assets/3457ae49-3e31-49fd-8a86-771461c03116" />
 
 
-Sign back into the client vm like before and try to access the “accounting” share in \\DC-1\ - Does it work now?
+Sign back into the client vm like before and try to access the “accounting” share in \\dc-1\
+
+It should look something like this
+
+<img width="862" height="758" alt="image" src="https://github.com/user-attachments/assets/d26fb510-d675-40c0-a71a-cd5d199fbd0c" />
+
+If you still can't access the accounting folder, you may have to sign out inside of the vm itself, and then log back in.
+
+This the whole lab, great work! We set up Active Directory with Windows Server, Organizational Units, generated new users with Poweshell, pointed the client virtual machine to the domain controller to reflect changes than the domain admin configures, we managed Group Policy, and learned how to share permissions with different groups and users inside of an organization.  
+
+Remember, do not forget to stop the VM!! 
+
+![image](https://github.com/user-attachments/assets/92abfa3a-0dc5-4284-8fde-ab364f9f546d)
+
 
 
 
