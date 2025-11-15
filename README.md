@@ -48,7 +48,7 @@ For the "no-access" folder, we are going to type "domain admins" and the Permiss
 <img width="638" height="550" alt="image" src="https://github.com/user-attachments/assets/adf2cbff-5efa-4ae4-9ef8-d9f293478d67" />
 
 
-# Access Attempts
+### Access Attempts
 
 Inside of the client vm, run the "\\dc-1" command and then press enter
 
@@ -64,6 +64,15 @@ Double click the "read-access" folder, and attempt to create a new folder inside
 <img width="848" height="738" alt="image" src="https://github.com/user-attachments/assets/d83541a0-0c07-4b98-9d0f-d44ab4b8e605" />
 
 Notice that you cannot create a folder because this particular folder only has read permissions for users.
+
+If you attempt to double click on the "no-access" folder, this happens.
+
+<img width="639" height="236" alt="image" src="https://github.com/user-attachments/assets/78d716ae-4105-4e6c-b196-62e07af806e3" />
+
+Inside the "write-access" folder, attempt to create a new file or folder inside and observe what happens.
+
+<img width="859" height="741" alt="image" src="https://github.com/user-attachments/assets/d80eb17e-0497-446e-a031-20ae3e4c2f7b" />
+
 
 
 
